@@ -4,3 +4,6 @@
 target/
 *.css
 gwt-unitCache/
+./idea
+.idea
+*.iml
