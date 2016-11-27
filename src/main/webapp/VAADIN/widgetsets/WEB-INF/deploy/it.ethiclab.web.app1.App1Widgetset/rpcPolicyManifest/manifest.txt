@@ -1,0 +1,2 @@
+# Module it.ethiclab.web.app1.App1Widgetset
+# RPC service class, partial path of RPC policy file
