@@ -2,11 +2,11 @@ public class Loan {
     
     Double interest;
     Double value;
-    Double period;
+    Integer period;
     Double monthlyInterest;
     Double monthlyPrincipal;
 
-    public Loan(double interest, double period, double value) {
+    public Loan(double interest, int period, double value) {
         setInterest(interest);
         setPeriod(period);
         setValue(value);
@@ -31,11 +31,11 @@ public class Loan {
         this.value = value;
     }
 
-    public Double getPeriod() {
+    public Integer getPeriod() {
         return period;
     }
 
-    public void setPeriod(Double period) {
+    public void setPeriod(Integer period) {
         this.period = period;
     }
 
